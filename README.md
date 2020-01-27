@@ -1,9 +1,8 @@
 # keras_manufy_pix2pix
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/04tMpEpjKQs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 Deep Learning pix2pix
 
+- Learning video demo at https://youtu.be/04tMpEpjKQs
 - Added dropout
 - Changed hyperparameters for encoder/decoder
 
