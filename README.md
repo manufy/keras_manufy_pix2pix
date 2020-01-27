@@ -15,25 +15,18 @@ DATASET:
 
 Must be in a folder /images/facades from facades dataset
 
-USE:
-
+USE with PlaidML to support AMD RADEON GPU:
 
 os.environ["KERAS_BACKEND"] = "plaidml.keras.backend"
-
- # Use PlaidML to support AMD RADEON GPU
 neural_network = Pix2Pix()
-
 neural_network.build_model()
-n
-
-
 neural_network.train()
 
-
+from command line:
 
 python pix2pix.py
 
-TODO FOR LOAD MODELS:
+*TODO FOR LOAD MODELS*
 
 Save / Load training process. Gives an error loading .h5 deep network definition and weights.
 
