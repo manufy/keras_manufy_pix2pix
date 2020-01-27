@@ -3,6 +3,7 @@
 Deep Learning pix2pix
 
 - Learning video demo at https://youtu.be/04tMpEpjKQs
+- What can pix2pix do ? at https://phillipi.github.io/pix2pix/images/teaser_v3.png
 - Added dropout
 - Changed hyperparameters for encoder/decoder
 
